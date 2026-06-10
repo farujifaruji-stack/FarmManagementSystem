@@ -1,84 +1,31 @@
-# FarmManagementSystem
-ASP.NET Core farm management system with payroll, attendance, inventory, finance, and digital receipts.
-
 # Farm Management System
 
 A farm management system built with ASP.NET Core for managing workers, attendance, payroll, field operations, inventory, equipment, finances, and digital receipts.
 
 ## Overview
 
-This project is being developed to centralize farm operations in a single system. The main focus is worker management, attendance tracking, payroll processing, and operational record keeping.
+This project is designed to centralize farm operations in a single platform. The primary focus is workforce management, attendance tracking, payroll processing, field activities, inventory control, and financial record keeping.
 
-## Features
+## Planned Features
 
-### Worker Management
+* Worker Management
+* Attendance Tracking
+* Payroll Management
+* Field Management
+* Equipment Management
+* Inventory & Product Management
+* Financial Management
+* Digital Receipts
+* Task & Reminder Management
+* Document Management
 
-* Worker profiles
-* Worker types
-* Work permits
-* Health plans
-* Account details
+## Documentation
 
-### Attendance & Payroll
+The project documentation can be found in the `docs` directory:
 
-* Attendance sheets
-* Shift management
-* Worker absences
-* Pay rates
-* Paycheck generation
-
-### Field Management
-
-* Fields
-* Field activities
-* Crop tracking
-* Harvest records
-
-### Inventory & Products
-
-* Product management
-* Product stock tracking
-* Product pricing
-* Price rules
-
-### Equipment Management
-
-* Equipment records
-* Maintenance tracking
-* Vehicle management
-
-### Financial Management
-
-* Income tracking
-* Expense tracking
-* Purchases
-* Financial reports
-
-### Receipt Management
-
-* Digital receipts
-* Receipt items
-* Payment methods
-* Payment details
-
-## Domain Model
-
-The system is organized into the following modules:
-
-* Login
-* Users
-* Workers
-* Customers
-* Products
-* Finance
-* Receipts
-* Reports
-* Fields
-* Equipment
-* Tasks & Reminders
-* Documents
-
-![Domain Model](docs/DomainModel.png)
+* Domain Model
+* Entity Definitions
+* Database ERD
 
 ## Technology Stack
 
