@@ -30,14 +30,14 @@ Each receipt item is now recreated from the `Receipt.Items` collection, ensuring
 
 The page returned only the first receipt item after a duplicate receipt number was detected.
 
+## Before
+
 **Reproduction**
 
-https://github.com/farujifaruji-stack/FarmManagementSystem/blob/main/Jiras/bugs/Digital%20receipt%20-%20Receipt%20items%20-%3E%20If%20receipt%20number%20exists%2C%20receipt%20Items%20are%20cleared/Digital%20receipt%20-%20Receipt%20items%20-%20If%20receipt%20number%20exists%20-%20reproduce.mp4
+[Watch reproduction](./Digital%20receipt%20-%20Receipt%20items%20-%20If%20receipt%20number%20exists,%20receipt%20Items%20are%20cleared%20-%20reproduce.mp4)
 
 ---
 
 ## After
 
-All receipt items are preserved after the validation error, allowing the user to correct the receipt number without re-entering the receipt items.
-
-![After](Digital%20receipt%20-%20Receipt%20items%20-%20If%20receipt%20number%20exists%20-%20Done.png)
+![After](./Digital%20receipt%20-%20Receipt%20items%20-%20If%20receipt%20number%20exists,%20receipt%20Items%20are%20cleared%20-%20Done.png)
